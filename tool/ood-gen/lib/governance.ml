@@ -34,7 +34,7 @@ type dev_meeting = {
   date : string;
   time : string;
   link : string;
-  invite : string;
+  calendar : string option;
   notes : string;
 }
 [@@deriving yaml, show { with_path = false }]
@@ -89,7 +89,7 @@ type dev_meeting = {
   date : string;
   time : string;
   link : string;
-  invite : string;
+  calendar : string option;
   notes : string;
 }
 

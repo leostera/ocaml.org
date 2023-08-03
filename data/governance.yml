@@ -256,7 +256,7 @@ teams:
       date: Every third Tuesday
       time: 6:00 PM CET
       link: https://meet.google.com/bwy-fyqo-dnf
-      invite: https://calendar.google.com/calendar/u/4?cid=Y19iMDA5ZDA4MDg0YzIwYWMzMDQ4NjJhN2FkZWJiYjdmOTU0NGIxYzEwMmU0MDMyMTAzMDFiY2ZhYjcwMDBmMjNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+      calendar: https://calendar.google.com/calendar/u/4?cid=Y19iMDA5ZDA4MDg0YzIwYWMzMDQ4NjJhN2FkZWJiYjdmOTU0NGIxYzEwMmU0MDMyMTAzMDFiY2ZhYjcwMDBmMjNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
       notes: https://github.com/ocaml-ppx/ppxlib/wiki
     members:
     - name: Sonja Heinze
@@ -504,7 +504,7 @@ working-groups:
     date: Biweekly on Mondays
     time: 10:00 AM BST
     link: http://meet.google.com/byo-dfiz-dou
-    invite: https://calendar.google.com/calendar/u/4?cid=Y19iMDA5ZDA4MDg0YzIwYWMzMDQ4NjJhN2FkZWJiYjdmOTU0NGIxYzEwMmU0MDMyMTAzMDFiY2ZhYjcwMDBmMjNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+    calendar: https://calendar.google.com/calendar/u/4?cid=Y19iMDA5ZDA4MDg0YzIwYWMzMDQ4NjJhN2FkZWJiYjdmOTU0NGIxYzEwMmU0MDMyMTAzMDFiY2ZhYjcwMDBmMjNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
     notes: https://docs.google.com/document/d/1ZBfbjAkvEkv9ldumpZV5VXrEc_HpPeYjHPW_TiwJe4Q/
   members:
   - name: Sudha Parimala
@@ -541,7 +541,7 @@ working-groups:
     date: Biweekly on Mondays
     time: 18:00 CET
     link: https://us06web.zoom.us/j/86793886593?pwd=cXFMN201dGY0b0w3VDZoTXV1MUlMdz09
-    invite: https://calendar.google.com/calendar/u/0?cid=Y18wMmU0MWIyYWQwMDE2NWI0MDQ3ODlmYWQ3YzVkZjdlYTNhNGFlNjI3NDRjMTMzMDdlZTdmYjNmZDczODJmMWRkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+    calendar: https://calendar.google.com/calendar/u/0?cid=Y18wMmU0MWIyYWQwMDE2NWI0MDQ3ODlmYWQ3YzVkZjdlYTNhNGFlNjI3NDRjMTMzMDdlZTdmYjNmZDczODJmMWRkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
     notes: https://docs.google.com/document/d/1ricnsicOB35TmuOM86guYr6HWo8A1iyVrHdb0cNxOXg/edit
   members:
   - name: Sabine Schmaltz

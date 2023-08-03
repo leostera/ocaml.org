@@ -29,10 +29,12 @@ let render_dev_meeting (dev_meeting : Data.Governance.dev_meeting) _class =
         <%s! Icons.community "w-6 h-6" %>
         Meeting Link
       </a>
-      <a class="underline flex gap-1 py-2 font-semibold" href="<%s dev_meeting.invite %>">
+      <% match dev_meeting.calendar with | None -> () | Some calendar -> %>
+      <a class="underline flex gap-1 py-2 font-semibold" href="<%s calendar %>">
         <%s! Icons.calendar "w-6 h-6" %>
         Calendar Invite
       </a>
+      <% ; %>
     </div>
   </div>
 

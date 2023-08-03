@@ -420,7 +420,7 @@ module Governance : sig
     date : string;
     time : string;
     link : string;
-    invite : string;
+    calendar : string option;
     notes : string;
   }
 
