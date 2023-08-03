@@ -96,6 +96,11 @@ teams:
   - id: dune-dev
     name: Dune
     description: A composable build system for OCaml
+    dev-meeting:
+      date: Every other Wednesday
+      time: Alternating 9:00 AM CET and 5:00 PM CET (see wiki)
+      link: https://us06web.zoom.us/j/85096877776?pwd=cWNhU1dHQ1ZNSjZuOUZCQ0h2by9Udz09
+      notes: https://github.com/ocaml/dune/wiki
     contacts:
     - name: GitHub
       link: https://github.com/ocaml/dune
@@ -137,6 +142,11 @@ teams:
   - id: opam-dev
     name: opam
     description: Opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
+    dev-meeting:
+      date: Every Monday
+      time: 2:00 PM CET
+      link: https://us06web.zoom.us/j/84185730263?pwd=TTYrY2puc0dST0lBMjZ5ZHNTaThoZz09
+      notes: https://github.com/ocaml/opam/wiki#dev-meetings
     contacts:
     - name: Mailing List
       link: https://lists.ocaml.org/listinfo/opam-devel
@@ -436,9 +446,6 @@ teams:
     powering the official OCaml projects, including the servers for OCaml.org and
     the opam-repository CI.
   contacts:
-  - name: Mailing List
-    link: https://lists.ocaml.org/listinfo/infrastructure
-    kind: email
   - name: GitHub
     link: https://github.com/ocaml/infrastructure/issues
     kind: github
