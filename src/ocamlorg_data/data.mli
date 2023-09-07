@@ -450,3 +450,25 @@ module Governance : sig
   val working_groups : team list
   val get_by_id : string -> team option
 end
+
+module Is_ocaml_yet : sig
+  type external_package = { url : string; synopsis : string }
+  type package = { name : string; extern : external_package option }
+
+  type category = {
+    name : string;
+    status : string;
+    description : string;
+    packages : package list;
+  }
+
+  type t = {
+    id : string;
+    question : string;
+    answer : string;
+    categories : category list;
+    body_html : string;
+  }
+
+  val all : t list
+end

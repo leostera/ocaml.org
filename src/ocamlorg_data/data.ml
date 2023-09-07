@@ -179,3 +179,7 @@ module Governance = struct
   let get_by_id id =
     List.find_opt (fun x -> String.equal id x.id) (teams @ working_groups)
 end
+
+module Is_ocaml_yet = struct
+  include Is_ocaml_yet
+end
