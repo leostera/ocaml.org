@@ -290,6 +290,7 @@ let from_v2 =
     ("/docs/consortium-license.html", Url.index);
     ("/docs/index.fr.html", Url.learn);
     ("/docs/index.html", Url.learn);
+    ("/docs/up-and-running", Url.getting_started);
     ("/docs/install.fr.html", Url.getting_started);
     ("/docs/install.html", Url.getting_started);
     ("/docs/license.fr.html", Url.index);
@@ -316,7 +317,8 @@ let from_v2 =
     ("/learn/taste.html", Url.learn);
     ("/learn/teaching-ocaml.html", Url.academic_users);
     ("/learn/tutorials/99problems.html", Url.problems);
-    ("/learn/tutorials/a_first_hour_with_ocaml.html", Url.tutorial "first-hour");
+    ( "/learn/tutorials/a_first_hour_with_ocaml.html",
+      Url.tutorial "a-tour-of-ocaml" );
     ( "/learn/tutorials/calling_c_libraries.html",
       Url.tutorial "calling-c-libraries" );
     ( "/learn/tutorials/calling_fortran_libraries.html",
@@ -447,6 +449,7 @@ let from_v2 =
     ("/learn/tutorials/set.zh.html", Url.tutorial "sets");
     ("/learn/tutorials/streams.html", Url.tutorial "streams");
     ("/learn/tutorials/up_and_running.html", Url.tutorial "up-and-running");
+    (Url.tutorial "first-hour", Url.tutorial "a-tour-of-ocaml");
     ("/meetings/index.fr.html", Url.community);
     ("/meetings/index.html", Url.community);
     ("/meetings", Url.community);
